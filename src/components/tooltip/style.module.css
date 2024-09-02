@@ -1,0 +1,35 @@
+.ant-tooltip-open {
+    z-index: 99 !important;
+}
+
+.ant-tooltip-placement-bottom,
+.ant-tooltip-placement-bottomLeft,
+.ant-tooltip-placement-bottomRight {
+    padding-top: 0px !important;
+}
+
+.ant-tooltip-arrow {}
+
+.tooltipBox {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.ant-tooltip-inner {
+    min-height: 20px !important;
+    padding: 4px 8px !important;
+    font-size: 12px !important;
+    letter-spacing: 0.7px !important;
+    max-width: 250px;
+    word-break: break-word;
+    white-space: normal;
+    line-height: 18px;
+    font-weight: 600 !important;
+    border-radius: 4px !important;
+    /* border-top-left-radius: 0px !important; */
+    -webkit-border-radius: 4px !important;
+    -moz-border-radius: 4px !important;
+    -ms-border-radius: 4px !important;
+    -o-border-radius: 4px !important;
+}
